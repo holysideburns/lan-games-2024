@@ -151,3 +151,11 @@ main {
 .game-vote-button {
     margin: 0 10px;
 }
+
+.positive-text {
+    color: green;
+}
+
+.negative-text {
+    color: red;
+}
