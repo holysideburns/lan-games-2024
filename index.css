@@ -1,7 +1,7 @@
 :root {
-    --color1: #03045e; 
-    --color2: #00b4d8;
-    --color3: #caf0f8;
+    --color1: #dddddd; 
+    --color2: #18191a;
+    --color3: #242526;
     --color4: #0077b6;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-    color: var(--color3);
+    color: var(--color1);
     text-align: left;
     margin: 10px 5px;
 }
@@ -51,6 +51,7 @@ main {
     justify-items: start;
     padding: 0 10px;
     box-sizing: border-box;
+    text-align: left;
 }
 
 .game-title {
@@ -109,34 +110,37 @@ main {
     white-space: pre;
     display: flex;
     flex-direction: column;
-
   }
 
 .game-detail-row {
     display: flex;
     justify-content: left;
-    padding: 5px 0; 
+    padding: 5px 0;
 }
 
 .game-detail {
     font-size: 1rem;
     font-weight: 500;
+    color: var(--color1);
 }
 
 .game-detail-value {
     font-size: 0.95rem;
     font-weight: 400;
     text-align: right;
+    color: var(--color1);
 }
 
 .store-link {
     width: 100%;
     text-align: left;
+    color: var(--color1);
 }
 
 .game-vote-heading {
     text-align: center;
     margin: 0 auto 10px;
+    color: var(--color1);
 }
 
 .game-vote-buttons-container {
