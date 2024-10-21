@@ -44,12 +44,14 @@ function renderGames() {
                                 <a class="store-link" href="${game.storeLink}">Store link</a>
                             </div>
                         </div>
+                        <!--
                         <h3 class="game-vote-heading">Wanna play?</h3>
                         <div class="game-vote-buttons-container">
                             
                             <button class="game-vote-button">Yes</button>
                             <button class="game-vote-button">No</button>
                         </div>
+                        -->
                     </section>
                 </section>
             `
