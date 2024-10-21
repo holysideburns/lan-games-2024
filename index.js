@@ -7,7 +7,7 @@ function renderGames() {
     let gamesHTML = "";
     if (games.length > 0 && categories.length > 0) {
         games.forEach(game => {
-            const xboxText = game.xboxGamePass ? "✔️Yes" : "❌No";
+            const xboxText = game.xboxGamePass ? "Yes✔️" : "No❌";
             
             gamesHTML += `
                 <section class="game-section" id="game-section">
@@ -48,8 +48,8 @@ function renderGames() {
                         <h3 class="game-vote-heading">Wanna play?</h3>
                         <div class="game-vote-buttons-container">
                             
-                            <button class="game-vote-button">Yes</button>
-                            <button class="game-vote-button">No</button>
+                            <button class="game-vote-button">Yeah</button>
+                            <button class="game-vote-button">Nah</button>
                         </div>
                         -->
                     </section>
