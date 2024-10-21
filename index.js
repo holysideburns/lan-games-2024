@@ -41,7 +41,7 @@ function renderGames() {
                                 <span class="game-detail-value">${xboxText}</span>
                             </div>
                             <div class="game-detail-row">
-                                <a class="store-link" href="${game.storeLink}">Store link</a>
+                                <a class="store-link" href="${game.storeLink}" target="_blank">Store link</a>
                             </div>
                         </div>
                         <!--
