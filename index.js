@@ -8,7 +8,8 @@ function renderGames() {
     if (games.length > 0 && categories.length > 0) {
         games.forEach(game => {
             const xboxText = game.xboxGamePass ? "Yes✔️" : "No❌";
-            
+            const earlyAccessText = game.earlyAccess ? "Yes✔️" : "No❌"
+
             gamesHTML += `
                 <section class="game-section" id="game-section">
                     <section class="game-left-section">
@@ -17,7 +18,11 @@ function renderGames() {
                         <p class="game-comment">"${game.comment}"</p>
                     </section>
                     <section class="game-right-section">
-                        <!--<img class="game-image" src="${game.imageSrc}">-->
+                        
+                        <!--
+                        <img class="game-image" src="${game.imageSrc}">
+                        -->
+                        
                         <div class="game-video">
                             <iframe 
                                 src="https://www.youtube.com/embed/${game.youtubeId}"
@@ -29,14 +34,20 @@ function renderGames() {
                                 allowfullscreen>
                             </iframe>
                         </div>
-
-
                         <div class="game-details-container">
                             <div class="game-detail-row">
                                 <span class="game-detail">Recent reviews: </span>
                                 <span class="game-detail-value">${game.recentReviews}</span>
                             </div>
+                                                       
+                           <!--
                             <div class="game-detail-row">
+                                <span class="game-detail">Early Access: </span>
+                                <span class="game-detail-value">${earlyAccessText}</span>
+                            </div>
+                            -->
+
+                           <div class="game-detail-row">
                                 <span class="game-detail">Xbox Game Pass: </span>
                                 <span class="game-detail-value">${xboxText}</span>
                             </div>
@@ -47,7 +58,6 @@ function renderGames() {
                         <!--
                         <h3 class="game-vote-heading">Wanna play?</h3>
                         <div class="game-vote-buttons-container">
-                            
                             <button class="game-vote-button">Yeah</button>
                             <button class="game-vote-button">Nah</button>
                         </div>
