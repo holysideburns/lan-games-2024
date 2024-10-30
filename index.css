@@ -130,6 +130,11 @@ main {
     color: var(--color1);
 }
 
+.steam-link {
+    color: var(--color1);
+    text-decoration: none;
+}
+
 .store-link {
     width: 100%;
     text-align: left;
