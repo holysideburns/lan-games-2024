@@ -6,9 +6,12 @@ const mainElement = document.getElementById("game-list")
 function renderGames() {
     let gamesHTML = "";
     if (games.length > 0 && categories.length > 0) {
+
+        // Sort the game list by category
+        games.sort((a, b) => a.category - b.category);
+
         games.forEach(game => {
             const xboxText = game.xboxGamePass ? "Yes✔️" : "No❌";
-            
             gamesHTML += `
                 <section class="game-section" id="game-section">
                     <section class="game-left-section">
