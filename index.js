@@ -40,8 +40,9 @@ function renderGames() {
                         </div>
                         <div class="game-details-container">
                             <div class="game-detail-row">
-                                <span class="game-detail">Recent reviews: </span>
+                                <span class="game-detail">Recent Steam Reviews: </span>
                                 <span class="game-detail-value">${game.recentReviews}</span>
+                                <!-- <span class="game-detail-value"><a class="steam-link" href="https://store.steampowered.com/app/${game.steamId}" target="_blank">${game.recentReviews}</a></span> -->
                             </div>                  
                             <div class="game-detail-row">
                                 <span class="game-detail">Early Access: </span>
