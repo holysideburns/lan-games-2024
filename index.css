@@ -76,7 +76,6 @@ main {
     margin: 0 0 10px;
 }
 
-
 .game-right-section {
     flex: 7;
     padding: 0 10px;
@@ -150,4 +149,12 @@ main {
 
 .game-vote-button {
     margin: 0 10px;
+}
+
+.positive-text {
+    color: green;
+}
+
+.negative-text {
+    color: red;
 }
