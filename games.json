@@ -263,16 +263,16 @@
         },
         {
             "id": 20,
-            "title": "Valheim",
-            "description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
-            "comment": "Finns säkert mer att upptäcka här med.",
+            "title": "Sons Of The Forest",
+            "description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
+            "comment": "Kan vara värt att testa.",
             "xboxGamePass": false,
-            "price": 200,
-            "recentReviews": "Very Positive (2,153)",
-            "storeLink": "https://gg.deals/game/valheim/",
+            "price": 350,
+            "recentReviews": "Very Positive (2,096)",
+            "storeLink": "https://gg.deals/game/sons-of-the-forest/",
             "imageSrc": "", 
-            "youtubeId": "lQiLPwV_8sY",
-            "category": 3
+            "youtubeId": "A_E4eCwUEqg",
+            "category": 1
         }
     ]
 }
