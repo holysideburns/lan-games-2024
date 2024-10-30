@@ -285,6 +285,7 @@
             "title": "Sons Of The Forest",
             "description": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
             "comment": "Kan vara värt att testa.",
+            "earlyAccess": false,
             "xboxGamePass": false,
             "price": 350,
             "recentReviews": "Very Positive (2,096)",
