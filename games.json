@@ -16,7 +16,7 @@
     "games": [
         {
             "id": 1,
-            "title": "Planet Crafter",
+            "title": "The Planet Crafter",
             "description": "A space survival open world terraforming crafting game, designed for 1 to 10 players. Alter the ecosystem of an inhospitable planet to render it habitable for humanity. Survive, gather resources, and build your base. Then, generate oxygen, warmth, and pressure to create a brand new biosphere.",
             "comment": "Bra survival-spel med tillfredställande progression där planeten blir mer och mer grön.",
             "earlyAccess": false,
@@ -26,6 +26,7 @@
             "storeLink": "https://gg.deals/game/the-planet-crafter/",
             "imageSrc": "https://steamuserimages-a.akamaihd.net/ugc/1834652679126290939/03BC13B41290038D10CA04AFCCB7EF8C181F66EB/", 
             "youtubeId": "2AxSBrHMMt0",
+            "steamId": "1284190",
             "category": 1
         },
         {
@@ -40,6 +41,7 @@
             "storeLink": "https://gg.deals/game/void-crew/",
             "imageSrc": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1063420/ss_01903c6ddffd99579a905bad407e647d68ef0d38.jpg", 
             "youtubeId": "UEcA1Hwkeko",
+            "steamId": "1063420",
             "category": 1
         },
         {
@@ -54,6 +56,7 @@
             "storeLink": "https://gg.deals/game/helldivers-2/",
             "imageSrc": "https://www.newgamenetwork.com/images/uploads/gallery/Helldivers2/helld2_04.jpg", 
             "youtubeId": "oD3pxbG9YYI",
+            "steamId": "553850",
             "category": 1
         },
         {
@@ -68,6 +71,7 @@
             "storeLink": "https://gg.deals/game/astroneer/",
             "imageSrc": "https://cdn.akamai.steamstatic.com/steam/apps/361420/ss_c7c54244add5ac921f2ae5b28f6f3efbc8470823.1920x1080.jpg", 
             "youtubeId": "0KXQZG7riEs",
+            "steamId": "361420",
             "category": 1
         },
         {
@@ -82,6 +86,7 @@
             "storeLink": "https://gg.deals/game/satisfactory/",
             "imageSrc": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/ss_969cc0ee250048267ba4cbd6187dbeb93cfd285b.1920x1080.jpg", 
             "youtubeId": "Jt4XOPiPJHs",
+            "steamId": "526870",
             "category": 1
         },
         {
@@ -96,6 +101,7 @@
             "storeLink": "https://gg.deals/game/abiotic-factor/",
             "imageSrc": "https://ccdn.g-portal.com/original_webp_Gallery_Abiotic_Factor_0004_5_25aad4e487.webp", 
             "youtubeId": "MTecATPHQhA",
+            "steamId": "427410",
             "category": 1
         },
         {
@@ -110,6 +116,7 @@
             "storeLink": "https://gg.deals/game/warhammer-40000-darktide/",
             "imageSrc": "https://uk.mmoga.net/images/screenshots/_p/1446295/d20a5c07cf1344094d9b8f81e3d04cf0_warhammer-40k-darktide.jpg", 
             "youtubeId": "oMUfKLLynWI",
+            "steamId": "1361210",
             "category": 1
         },
         {
@@ -124,6 +131,7 @@
             "storeLink": "https://gg.deals/game/crab-champions/",
             "imageSrc": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/9a2bdb97737be9762f5ce7767f4fa9eb.jpg", 
             "youtubeId": "ZA3mHF4W980",
+            "steamId": "774801",
             "category": 1
         },
         {
@@ -138,6 +146,7 @@
             "storeLink": "https://gg.deals/game/scrap-mechanic/",
             "imageSrc": "https://cdn.akamai.steamstatic.com/steam/apps/387990/ss_da1a73da7f67636c423eebcafde65aa21ec28e7f.1920x1080.jpg", 
             "youtubeId": "NF02KyJoXj0",
+            "steamId": "387990",
             "category": 1
         },
         {
@@ -152,6 +161,7 @@
             "storeLink": "https://gg.deals/game/sea-of-thieves/",
             "imageSrc": "https://assetsio.gnwcdn.com/-1549393628167.jpg", 
             "youtubeId": "ylreFrrXbOo",
+            "steamId": "1172620",
             "category": 2
         },
         {
@@ -166,6 +176,7 @@
             "storeLink": "https://gg.deals/game/tom-clancy-s-ghost-recon-wildlands/",
             "imageSrc": "https://cdn.staticneo.com/p/2016/0/tom-clancys-ghost-recon-wildlands_image_vaaTr.jpg", 
             "youtubeId": "KL8DcwE16rU",
+            "steamId": "460930",
             "category": 2
         },
         {
@@ -180,6 +191,7 @@
             "storeLink": "https://gg.deals/game/swat-4-gold-edition/",
             "imageSrc": "https://miro.medium.com/v2/resize:fit:2560/1*k_ZTDfUnjncPcZIik0lLUw.jpeg", 
             "youtubeId": "V7nRxqTDIRk",
+            "steamId": "",
             "category": 2
         },
         {
@@ -194,6 +206,7 @@
             "storeLink": "https://gg.deals/game/risk-of-rain-2/",
             "imageSrc": "https://www.gematsu.com/wp-content/uploads/2024/08/Risk-of-Rain-2_08-21-24.jpg", 
             "youtubeId": "Qwgq_9EOCTg",
+            "steamId": "632360",
             "category": 2
         },
         {
@@ -208,6 +221,7 @@
             "storeLink": "https://gg.deals/game/deep-rock-galactic/",
             "imageSrc": "", 
             "youtubeId": "k4m_5JYrAGM",
+            "steamId": "548430",
             "category": 2
         },
         {
@@ -222,6 +236,7 @@
             "storeLink": "https://gg.deals/game/titanfall-2/",
             "imageSrc": "", 
             "youtubeId": "SbdQPdaPme4",
+            "steamId": "1237970",
             "category": 3
         },
         {
@@ -236,6 +251,7 @@
             "storeLink": "https://gg.deals/game/human-fall-flat/",
             "imageSrc": "", 
             "youtubeId": "PYfKMsTSyek",
+            "steamId": "477160",
             "category": 3
         },
         {
@@ -250,6 +266,7 @@
             "storeLink": "https://gg.deals/game/trailmakers/",
             "imageSrc": "", 
             "youtubeId": "3RJn9fBnG9k",
+            "steamId": "585420",
             "category": 3
         },
         {
@@ -264,6 +281,7 @@
             "storeLink": "https://gg.deals/game/core-keeper/",
             "imageSrc": "", 
             "youtubeId": "BDeKh18TLSI",
+            "steamId": "1621690",
             "category": 3
         },
         {
@@ -278,6 +296,7 @@
             "storeLink": "https://gg.deals/game/enshrouded/",
             "imageSrc": "", 
             "youtubeId": "09XE0Be0uOA",
+            "steamId": "1203620",
             "category": 3
         },
         {
@@ -292,6 +311,7 @@
             "storeLink": "https://gg.deals/game/sons-of-the-forest/",
             "imageSrc": "", 
             "youtubeId": "A_E4eCwUEqg",
+            "steamId": "1326470",
             "category": 1
         }
     ]
