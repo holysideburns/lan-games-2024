@@ -42,15 +42,11 @@ function renderGames() {
                             <div class="game-detail-row">
                                 <span class="game-detail">Recent reviews: </span>
                                 <span class="game-detail-value">${game.recentReviews}</span>
-                            </div>
-                                                       
-                           <!--
+                            </div>                  
                             <div class="game-detail-row">
                                 <span class="game-detail">Early Access: </span>
                                 <span class="game-detail-value">${earlyAccessText}</span>
                             </div>
-                            -->
-
                            <div class="game-detail-row">
                                 <span class="game-detail">Xbox Game Pass: </span>
                                 <span class="game-detail-value">${xboxText}</span>
