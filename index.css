@@ -24,7 +24,8 @@ header {
 header h1 {
     color: var(--color1);
     text-align: left;
-    margin: 10px 5px;
+    margin: 5px 15px;
+    font-size: 3rem;
 }
 
 main {
@@ -34,6 +35,17 @@ main {
     display: flex;
     flex-direction: column;
     background-color: var(--color3);
+}
+
+.category-header {
+    color: var(--color1);
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 10px;
+    background-color: var(--color2);
+    padding: 5px 10px;
+    border: 1px solid var(--color1);
+    border-radius: 5px;
 }
 
 .game-section  {
@@ -57,13 +69,13 @@ main {
 .game-title {
     color: var(--color1);
     font-size: 2rem;
-    margin: 0 0 10px;
+    margin: 0 5px 10px;
 }
 
 .game-description {
     color: var(--color1);
     font-size: 1rem;
-    margin: 0 0 40px;
+    margin: 0 5px 40px;
 }
 
 .game-comment {
@@ -132,7 +144,7 @@ main {
 
 .steam-link {
     color: var(--color1);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .store-link {
