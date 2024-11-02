@@ -159,22 +159,6 @@
             "enabled": true
         },
         {
-            "id": 9,
-            "title": "Scrap Mechanic",
-            "description": "Enter the creative paradise of Scrap Mechanic! Build fantastic machines, go on adventures with your friends and defend against waves of evil Farmbots in this imaginative multiplayer survival sandbox. With Scrap Mechanic’s powerful creation tools you can engineer your own adventures!",
-            "comment": "Som Trailmakers fast med fiender och basbyggande.",
-            "earlyAccess": false,
-            "xboxGamePass": false,
-            "price": 230,
-            "recentReviews": "Very Positive (501)",
-            "storeLink": "https://gg.deals/game/scrap-mechanic/",
-            "imageSrc": "https://cdn.akamai.steamstatic.com/steam/apps/387990/ss_da1a73da7f67636c423eebcafde65aa21ec28e7f.1920x1080.jpg", 
-            "youtubeId": "NF02KyJoXj0",
-            "steamId": "387990",
-            "category": 2,
-            "enabled": true
-        },
-        {
             "id": 10,
             "title": "Sea of Thieves",
             "description": "Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential pirate experience of plundering lost treasures, intense battles, vanquishing sea monsters and more. Dive in with this revised edition of the game, which includes access to digital bonus media.",
@@ -203,6 +187,22 @@
             "imageSrc": "https://cdn.staticneo.com/p/2016/0/tom-clancys-ghost-recon-wildlands_image_vaaTr.jpg", 
             "youtubeId": "KL8DcwE16rU",
             "steamId": "460930",
+            "category": 2,
+            "enabled": true
+        },
+        {
+            "id": 9,
+            "title": "Scrap Mechanic",
+            "description": "Enter the creative paradise of Scrap Mechanic! Build fantastic machines, go on adventures with your friends and defend against waves of evil Farmbots in this imaginative multiplayer survival sandbox. With Scrap Mechanic’s powerful creation tools you can engineer your own adventures!",
+            "comment": "Som Trailmakers fast med fiender och basbyggande.",
+            "earlyAccess": false,
+            "xboxGamePass": false,
+            "price": 230,
+            "recentReviews": "Very Positive (501)",
+            "storeLink": "https://gg.deals/game/scrap-mechanic/",
+            "imageSrc": "https://cdn.akamai.steamstatic.com/steam/apps/387990/ss_da1a73da7f67636c423eebcafde65aa21ec28e7f.1920x1080.jpg", 
+            "youtubeId": "NF02KyJoXj0",
+            "steamId": "387990",
             "category": 2,
             "enabled": true
         },
