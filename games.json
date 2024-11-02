@@ -46,7 +46,7 @@
             "id": 21,
             "title": "Echo Point Nova",
             "description": "Echo Point Nova is an open-world FPS that offers unparalleled freedom and thrilling speed. Designed for both singleplayer and coop. From the creators of Severed Steel.",
-            "comment": "Cool open-world PvE-shooter med Titanfall-liknande rörelse.",
+            "comment": "Cool open-world PvE-shooter med Titanfall-liknande rörelser.",
             "earlyAccess": false,
             "xboxGamePass": false,
             "price": 300,
@@ -94,7 +94,7 @@
             "id": 4,
             "title": "Astroneer",
             "description": "Interact with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends.",
-            "comment": "Utforska planeter, och samla resurser till att bygga maskiner och fordon.",
+            "comment": "Utforska och samla resurser till att bygga maskiner och fordon.",
             "earlyAccess": false,
             "xboxGamePass": true,
             "price": 350,
@@ -206,7 +206,7 @@
             "id": 13,
             "title": "Risk of Rain 2",
             "description": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
-            "comment": "Tidsbaserat rogue-like där fienderna blir svårare ju längre tid man tar på sig. Coola uppgraderingar.",
+            "comment": "Tidsbaserat rogue-like där fienderna blir svårare ju längre tid man tar på sig. Mycket action och coola uppgraderingar.",
             "earlyAccess": false,
             "xboxGamePass": false,
             "price": 230,
@@ -286,7 +286,7 @@
             "id": 12,
             "title": "SWAT 4",
             "description": "The adrenaline is always high as you carry on the legendary SWAT® tradition – leading an elite squad of tactical experts into hard-hitting action that delves deeply into every detail of the experience. In a city rife with armed felons and explosive situations, only the unique skills of your men will do – because when SWAT gets the call, there is no other option.",
-            "comment": "Panga skurkar under kontrollerade former. Har en DRM-fri installer från GOG.",
+            "comment": "Panga skurkar under kontrollerade former. Har en DRM-fri installer från GOG, så kostar inget att spela.",
             "earlyAccess": false,
             "xboxGamePass": false,
             "price": 0,
@@ -318,7 +318,7 @@
             "id": 19,
             "title": "Enshrouded",
             "description": "You are Flameborn, last ember of hope of a dying race. Awaken, survive the terror of a corrupting fog, and reclaim the lost beauty of your kingdom. Venture into a vast world, vanquish punishing bosses, build grand halls and forge your path in this co-op survival action RPG for up to 16 players.",
-            "comment": "Tror vi bara skrapade på ytan sist, finns rätt mycket mer att upptäcka.",
+            "comment": "Tror vi bara skrapade på ytan sist, finns rätt mycket mer att upptäcka. Möjligtvis lite roligare i mindre grupp också.",
             "earlyAccess": true,
             "xboxGamePass": false,
             "price": 350,
@@ -344,7 +344,7 @@
             "youtubeId": "A_E4eCwUEqg",
             "steamId": "1326470",
             "category": 1,
-            "enabled": false
+            "enabled": true
         }  
     ]
 }
