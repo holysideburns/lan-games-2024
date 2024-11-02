@@ -45,6 +45,21 @@
             "category": 1
         },
         {
+            "id": 21,
+            "title": "Echo Point Nova",
+            "description": "Echo Point Nova is an open-world FPS that offers unparalleled freedom and thrilling speed. Designed for both singleplayer and coop. From the creators of Severed Steel.",
+            "comment": "Cool PvE-shooter med Titanfall-liknande rörelser.",
+            "earlyAccess": false,
+            "xboxGamePass": false,
+            "price": 300,
+            "recentReviews": "Overwhelmingly Positive (1,153)",
+            "storeLink": "https://gg.deals/game/echo-point-nova/",
+            "imageSrc": "", 
+            "youtubeId": "epzLiDN5W_Q",
+            "steamId": "1836730",
+            "category": 1
+        },
+        {
             "id": 3,
             "title": "Helldivers 2",
             "description": "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter.",
@@ -313,21 +328,6 @@
             "youtubeId": "A_E4eCwUEqg",
             "steamId": "1326470",
             "category": 1
-        },
-        {
-            "id": 21,
-            "title": "Echo Point Nova",
-            "description": "Echo Point Nova is an open-world FPS that offers unparalleled freedom and thrilling speed. Designed for both singleplayer and coop. From the creators of Severed Steel.",
-            "comment": "Cool PvE-shooter med Titanfall-liknande rörelser.",
-            "earlyAccess": false,
-            "xboxGamePass": false,
-            "price": 300,
-            "recentReviews": "Overwhelmingly Positive (1,153)",
-            "storeLink": "https://gg.deals/game/echo-point-nova/",
-            "imageSrc": "", 
-            "youtubeId": "epzLiDN5W_Q",
-            "steamId": "1836730",
-            "category": 1
-        }
+        }  
     ]
 }
