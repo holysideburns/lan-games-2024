@@ -6,71 +6,83 @@ const mainElement = document.getElementById("game-list")
 function renderGames() {
     let gamesHTML = "";
     if (games.length > 0 && categories.length > 0) {
-
-        // Sort the game list by category
-        games.sort((a, b) => a.category - b.category);
-
+        // Create a map of category IDs to their full category objects for easy lookup
+        const categoryMap = new Map(categories.map(category => [category.id, category]));
+        
+        const gamesByCategory = new Map();
+        categories.forEach(category => {
+            gamesByCategory.set(category.id, []);
+        });
+        
+        // Sort enabled games into their respective category arrays
         games.forEach(game => {
-            const xboxText = game.xboxGamePass ? "Yes✔️" : "No❌";
-            const earlyAccessText = game.earlyAccess ? "Yes✔️" : "No❌"
-
-            gamesHTML += `
-                <section class="game-section" id="game-section">
-                    <section class="game-left-section">
-                        <h2 class="game-title">${game.title}</h2>
-                        <p class="game-description">${game.description}</p>
-                        <p class="game-comment">"${game.comment}"</p>
-                    </section>
-                    <section class="game-right-section">
-                        
-                        <!--
-                        <img class="game-image" src="${game.imageSrc}">
-                        -->
-                        
-                        <div class="game-video">
-                            <iframe 
-                                src="https://www.youtube.com/embed/${game.youtubeId}"
-                                title="YouTube video player" 
-                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                referrerpolicy="strict-origin-when-cross-origin" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="game-details-container">
-                            <div class="game-detail-row">
-                                <span class="game-detail">Recent Steam Reviews: </span>
-                                <span class="game-detail-value">${game.recentReviews}</span>
-                                <!-- <span class="game-detail-value"><a class="steam-link" href="https://store.steampowered.com/app/${game.steamId}" target="_blank">${game.recentReviews}</a></span> -->
-                            </div>                  
-                            <div class="game-detail-row">
-                                <span class="game-detail">Early Access: </span>
-                                <span class="game-detail-value">${earlyAccessText}</span>
-                            </div>
-                           <div class="game-detail-row">
-                                <span class="game-detail">Xbox Game Pass: </span>
-                                <span class="game-detail-value">${xboxText}</span>
-                            </div>
-                            <div class="game-detail-row">
-                                <a class="store-link" href="${game.storeLink}" target="_blank">Store link</a>
-                            </div>
-                        </div>
-                        <!--
-                        <h3 class="game-vote-heading">Wanna play?</h3>
-                        <div class="game-vote-buttons-container">
-                            <button class="game-vote-button">Yeah</button>
-                            <button class="game-vote-button">Nah</button>
-                        </div>
-                        -->
-                    </section>
-                </section>
-            `
-        })
-      } else {
+            if (game.enabled) {
+                const categoryGames = gamesByCategory.get(game.category);
+                if (categoryGames) {
+                    categoryGames.push(game);
+                }
+            }
+        });
+        
+        categories.forEach(category => {
+            const categoryGames = gamesByCategory.get(category.id);
+            
+            // Only render category and games if there are enabled games in this category
+            if (categoryGames && categoryGames.length > 0) {
+                gamesHTML += `
+                    <h1 class="category-header">${category.category}</h1>
+                `;
+                
+                categoryGames.forEach(game => {
+                    const xboxText = game.xboxGamePass ? "Yes✔️" : "No❌";
+                    const earlyAccessText = game.earlyAccess ? "Yes✔️" : "No❌";
+                    
+                    gamesHTML += `
+                        <section class="game-section" id="game-section">
+                            <section class="game-left-section">
+                                <h2 class="game-title">${game.title}</h2>
+                                <p class="game-description">${game.description}</p>
+                                <p class="game-comment">"${game.comment}"</p>
+                            </section>
+                            <section class="game-right-section">
+                                <div class="game-video">
+                                    <iframe 
+                                        src="https://www.youtube.com/embed/${game.youtubeId}"
+                                        title="YouTube video player" 
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        referrerpolicy="strict-origin-when-cross-origin" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="game-details-container">
+                                    <div class="game-detail-row">
+                                        <span class="game-detail">Recent Steam Reviews: </span>
+                                        <a href="https://store.steampowered.com/app/${game.steamId}" class="game-detail-value steam-link">${game.recentReviews}</a>
+                                    </div>                  
+                                    <div class="game-detail-row">
+                                        <span class="game-detail">Early Access: </span>
+                                        <span class="game-detail-value">${earlyAccessText}</span>
+                                    </div>
+                                    <div class="game-detail-row">
+                                        <span class="game-detail">Xbox Game Pass: </span>
+                                        <span class="game-detail-value">${xboxText}</span>
+                                    </div>
+                                    <div class="game-detail-row">
+                                        <a class="store-link" href="${game.storeLink}" target="_blank">Store link</a>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                    `;
+                });
+            }
+        });
+    } else {
         console.log('Data not loaded yet');
-      }
-      mainElement.innerHTML = gamesHTML;
+    }
+    mainElement.innerHTML = gamesHTML;
 }
 
 function loadGamesAndCategories() {
