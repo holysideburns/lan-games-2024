@@ -4,6 +4,7 @@
     --color3: #242526;
     --color4: #222222;
     --color5: #dbb312;
+    --xbox-color: #0e7a0d;
 }
 
 body {
@@ -85,7 +86,7 @@ main {
     font-style: italic;   
     font-size: 1.1rem;
     font-weight: 400;
-    color: var(--color1);
+    color: var(--color5);
     margin: 0 0 5px;
 }
 
@@ -95,7 +96,7 @@ main {
     font-style: italic;   
     font-size: 1rem;
     font-weight: 400;
-    color: var(--color1);
+    color: var(--color5);
     margin: 0 10px;
 }
 
@@ -128,7 +129,7 @@ main {
 
 .game-details-container {
     margin: 0;
-    padding: 0 10px;
+    padding: 5px 5px;
     white-space: pre;
     display: flex;
     flex-direction: column;
