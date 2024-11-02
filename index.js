@@ -67,7 +67,7 @@ function renderGames() {
                                     </div>
                                     <div class="game-detail-row">
                                         <span class="game-detail">Recent Steam Reviews: </span>
-                                        <a href="https://store.steampowered.com/app/${game.steamId}" class="game-detail-value steam-link">${game.recentReviews}</a>
+                                        <a href="https://store.steampowered.com/app/${game.steamId}" target="_blank" class="game-detail-value steam-link">${game.recentReviews}</a>
                                     </div> 
                                     <div class="game-detail-row">
                                         <a class="store-link" href="${game.storeLink}" target="_blank">Store link</a>
