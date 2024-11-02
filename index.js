@@ -34,8 +34,8 @@ function renderGames() {
                 `;
                 
                 categoryGames.forEach(game => {
-                    const xboxText = game.xboxGamePass ? "Yes✔️" : "No❌";
-                    const earlyAccessText = game.earlyAccess ? "Yes✔️" : "No❌";
+                    const xboxText = game.xboxGamePass ? "Yes ✔️" : "No ❌";
+                    const earlyAccessText = game.earlyAccess ? "Yes ✔️" : "No ❌";
                     
                     gamesHTML += `
                         <section class="game-section" id="game-section">
