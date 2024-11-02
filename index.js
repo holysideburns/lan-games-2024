@@ -59,16 +59,16 @@ function renderGames() {
                                 </div>
                                 <div class="game-details-container">
                                     <div class="game-detail-row">
-                                        <span class="game-detail">Recent Steam Reviews: </span>
-                                        <a href="https://store.steampowered.com/app/${game.steamId}" class="game-detail-value steam-link">${game.recentReviews}</a>
-                                    </div>                  
-                                    <div class="game-detail-row">
                                         <span class="game-detail">Early Access: </span>
                                         <span class="game-detail-value">${earlyAccessText}</span>
                                         <span class="game-detail-separator"> | </span>
                                         <span class="game-detail">Xbox Game Pass: </span>
                                         <span class="game-detail-value">${xboxText}</span>
                                     </div>
+                                    <div class="game-detail-row">
+                                        <span class="game-detail">Recent Steam Reviews: </span>
+                                        <a href="https://store.steampowered.com/app/${game.steamId}" class="game-detail-value steam-link">${game.recentReviews}</a>
+                                    </div> 
                                     <div class="game-detail-row">
                                         <a class="store-link" href="${game.storeLink}" target="_blank">Store link</a>
                                     </div>
