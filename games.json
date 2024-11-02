@@ -2,11 +2,11 @@
     "categories": [
         {
             "id": 1,
-            "category": "Newer games"
+            "category": "New(er) Games"
         },
         {
             "id": 2,
-            "category": "Older games"
+            "category": "Older & Previously Played Games"
         },
         {
             "id": 3,
@@ -27,7 +27,8 @@
             "imageSrc": "https://steamuserimages-a.akamaihd.net/ugc/1834652679126290939/03BC13B41290038D10CA04AFCCB7EF8C181F66EB/", 
             "youtubeId": "2AxSBrHMMt0",
             "steamId": "1284190",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
         {
             "id": 2,
@@ -42,7 +43,8 @@
             "imageSrc": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1063420/ss_01903c6ddffd99579a905bad407e647d68ef0d38.jpg", 
             "youtubeId": "UEcA1Hwkeko",
             "steamId": "1063420",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
         {
             "id": 21,
@@ -57,8 +59,25 @@
             "imageSrc": "", 
             "youtubeId": "epzLiDN5W_Q",
             "steamId": "1836730",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
+		{
+            "id": 6,
+            "title": "Abiotic Factor",
+            "description": "Abiotic Factor is a survival crafting experience for 1-6 players set in the depths of an underground research facility. Caught between paranormal containment failure, a military crusade, and chaos from a dozen realms, the world’s greatest minds must survive against the universe’s biggest threats.",
+            "comment": "Tänk om Half-Life var ett multiplayer open world survival-spel.",
+            "earlyAccess": true,
+            "xboxGamePass": false,
+            "price": 225,
+            "recentReviews": "Overwhelmingly Positive (961)",
+            "storeLink": "https://gg.deals/game/abiotic-factor/",
+            "imageSrc": "https://ccdn.g-portal.com/original_webp_Gallery_Abiotic_Factor_0004_5_25aad4e487.webp", 
+            "youtubeId": "MTecATPHQhA",
+            "steamId": "427410",
+            "category": 1,
+            "enabled": true
+        },       
         {
             "id": 3,
             "title": "Helldivers 2",
@@ -72,7 +91,8 @@
             "imageSrc": "https://www.newgamenetwork.com/images/uploads/gallery/Helldivers2/helld2_04.jpg", 
             "youtubeId": "oD3pxbG9YYI",
             "steamId": "553850",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
         {
             "id": 4,
@@ -87,7 +107,8 @@
             "imageSrc": "https://cdn.akamai.steamstatic.com/steam/apps/361420/ss_c7c54244add5ac921f2ae5b28f6f3efbc8470823.1920x1080.jpg", 
             "youtubeId": "0KXQZG7riEs",
             "steamId": "361420",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
         {
             "id": 5,
@@ -102,22 +123,8 @@
             "imageSrc": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/ss_969cc0ee250048267ba4cbd6187dbeb93cfd285b.1920x1080.jpg", 
             "youtubeId": "Jt4XOPiPJHs",
             "steamId": "526870",
-            "category": 1
-        },
-        {
-            "id": 6,
-            "title": "Abiotic Factor",
-            "description": "Abiotic Factor is a survival crafting experience for 1-6 players set in the depths of an underground research facility. Caught between paranormal containment failure, a military crusade, and chaos from a dozen realms, the world’s greatest minds must survive against the universe’s biggest threats.",
-            "comment": "Tänk om Half-Life var ett multiplayer open world survival-spel.",
-            "earlyAccess": true,
-            "xboxGamePass": false,
-            "price": 225,
-            "recentReviews": "Overwhelmingly Positive (961)",
-            "storeLink": "https://gg.deals/game/abiotic-factor/",
-            "imageSrc": "https://ccdn.g-portal.com/original_webp_Gallery_Abiotic_Factor_0004_5_25aad4e487.webp", 
-            "youtubeId": "MTecATPHQhA",
-            "steamId": "427410",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
         {
             "id": 7,
@@ -132,7 +139,8 @@
             "imageSrc": "https://uk.mmoga.net/images/screenshots/_p/1446295/d20a5c07cf1344094d9b8f81e3d04cf0_warhammer-40k-darktide.jpg", 
             "youtubeId": "oMUfKLLynWI",
             "steamId": "1361210",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
         {
             "id": 8,
@@ -147,7 +155,8 @@
             "imageSrc": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/9a2bdb97737be9762f5ce7767f4fa9eb.jpg", 
             "youtubeId": "ZA3mHF4W980",
             "steamId": "774801",
-            "category": 1
+            "category": 1,
+            "enabled": true
         },
         {
             "id": 9,
@@ -162,7 +171,8 @@
             "imageSrc": "https://cdn.akamai.steamstatic.com/steam/apps/387990/ss_da1a73da7f67636c423eebcafde65aa21ec28e7f.1920x1080.jpg", 
             "youtubeId": "NF02KyJoXj0",
             "steamId": "387990",
-            "category": 1
+            "category": 2,
+            "enabled": true
         },
         {
             "id": 10,
@@ -177,7 +187,8 @@
             "imageSrc": "https://assetsio.gnwcdn.com/-1549393628167.jpg", 
             "youtubeId": "ylreFrrXbOo",
             "steamId": "1172620",
-            "category": 2
+            "category": 2,
+            "enabled": true
         },
         {
             "id": 11,
@@ -192,22 +203,8 @@
             "imageSrc": "https://cdn.staticneo.com/p/2016/0/tom-clancys-ghost-recon-wildlands_image_vaaTr.jpg", 
             "youtubeId": "KL8DcwE16rU",
             "steamId": "460930",
-            "category": 2
-        },
-        {
-            "id": 12,
-            "title": "SWAT 4",
-            "description": "The adrenaline is always high as you carry on the legendary SWAT® tradition – leading an elite squad of tactical experts into hard-hitting action that delves deeply into every detail of the experience. In a city rife with armed felons and explosive situations, only the unique skills of your men will do – because when SWAT gets the call, there is no other option.",
-            "comment": "Panga skurkar under kontrollerade former. Har en DRM-fri installer från GOG.",
-            "earlyAccess": false,
-            "xboxGamePass": false,
-            "price": 0,
-            "recentReviews": "4.8/5",
-            "storeLink": "https://gg.deals/game/swat-4-gold-edition/",
-            "imageSrc": "https://miro.medium.com/v2/resize:fit:2560/1*k_ZTDfUnjncPcZIik0lLUw.jpeg", 
-            "youtubeId": "V7nRxqTDIRk",
-            "steamId": "",
-            "category": 2
+            "category": 2,
+            "enabled": true
         },
         {
             "id": 13,
@@ -222,7 +219,8 @@
             "imageSrc": "https://www.gematsu.com/wp-content/uploads/2024/08/Risk-of-Rain-2_08-21-24.jpg", 
             "youtubeId": "Qwgq_9EOCTg",
             "steamId": "632360",
-            "category": 2
+            "category": 2,
+            "enabled": true
         },
         {
             "id": 14,
@@ -237,37 +235,8 @@
             "imageSrc": "", 
             "youtubeId": "k4m_5JYrAGM",
             "steamId": "548430",
-            "category": 2
-        },
-        {
-            "id": 15,
-            "title": "Titanfall 2",
-            "description": "Respawn Entertainment gives you the most advanced titan technology in its new, single player campaign & multiplayer experience. Combine & conquer with new titans & pilots, deadlier weapons, & customization and progression systems that help you and your titan flow as one unstoppable killing force.",
-            "comment": "Stora robotar, mycket pangande.",
-            "earlyAccess": false,
-            "xboxGamePass": true,
-            "price": 200,
-            "recentReviews": "Overwhelmingly Positive (2,196)",
-            "storeLink": "https://gg.deals/game/titanfall-2/",
-            "imageSrc": "", 
-            "youtubeId": "SbdQPdaPme4",
-            "steamId": "1237970",
-            "category": 3
-        },
-        {
-            "id": 16,
-            "title": "Human Fall Flat",
-            "description": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
-            "comment": "Det har tillkommit många nya banor sedan vi spelade det en gång i tiden.",
-            "earlyAccess": false,
-            "xboxGamePass": true,
-            "price": 200,
-            "recentReviews": "Very Positive (1,083)",
-            "storeLink": "https://gg.deals/game/human-fall-flat/",
-            "imageSrc": "", 
-            "youtubeId": "PYfKMsTSyek",
-            "steamId": "477160",
-            "category": 3
+            "category": 2,
+            "enabled": false
         },
         {
             "id": 17,
@@ -282,7 +251,56 @@
             "imageSrc": "", 
             "youtubeId": "3RJn9fBnG9k",
             "steamId": "585420",
-            "category": 3
+            "category": 2,
+            "enabled": true
+        },		
+        {
+            "id": 15,
+            "title": "Titanfall 2",
+            "description": "Respawn Entertainment gives you the most advanced titan technology in its new, single player campaign & multiplayer experience. Combine & conquer with new titans & pilots, deadlier weapons, & customization and progression systems that help you and your titan flow as one unstoppable killing force.",
+            "comment": "Stora robotar, mycket pangande.",
+            "earlyAccess": false,
+            "xboxGamePass": true,
+            "price": 200,
+            "recentReviews": "Overwhelmingly Positive (2,196)",
+            "storeLink": "https://gg.deals/game/titanfall-2/",
+            "imageSrc": "", 
+            "youtubeId": "SbdQPdaPme4",
+            "steamId": "1237970",
+            "category": 2,
+            "enabled": true
+        },
+        {
+            "id": 16,
+            "title": "Human Fall Flat",
+            "description": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
+            "comment": "Det har tillkommit många nya banor sedan vi spelade det en gång i tiden.",
+            "earlyAccess": false,
+            "xboxGamePass": true,
+            "price": 200,
+            "recentReviews": "Very Positive (1,083)",
+            "storeLink": "https://gg.deals/game/human-fall-flat/",
+            "imageSrc": "", 
+            "youtubeId": "PYfKMsTSyek",
+            "steamId": "477160",
+            "category": 2,
+            "enabled": true
+        },
+        {
+            "id": 12,
+            "title": "SWAT 4",
+            "description": "The adrenaline is always high as you carry on the legendary SWAT® tradition – leading an elite squad of tactical experts into hard-hitting action that delves deeply into every detail of the experience. In a city rife with armed felons and explosive situations, only the unique skills of your men will do – because when SWAT gets the call, there is no other option.",
+            "comment": "Panga skurkar under kontrollerade former. Har en DRM-fri installer från GOG.",
+            "earlyAccess": false,
+            "xboxGamePass": false,
+            "price": 0,
+            "recentReviews": "4.8/5",
+            "storeLink": "https://gg.deals/game/swat-4-gold-edition/",
+            "imageSrc": "https://miro.medium.com/v2/resize:fit:2560/1*k_ZTDfUnjncPcZIik0lLUw.jpeg", 
+            "youtubeId": "V7nRxqTDIRk",
+            "steamId": "",
+            "category": 2,
+            "enabled": true
         },
         {
             "id": 18,
@@ -297,7 +315,8 @@
             "imageSrc": "", 
             "youtubeId": "BDeKh18TLSI",
             "steamId": "1621690",
-            "category": 3
+            "category": 2,
+            "enabled": true
         },
         {
             "id": 19,
@@ -312,7 +331,8 @@
             "imageSrc": "", 
             "youtubeId": "09XE0Be0uOA",
             "steamId": "1203620",
-            "category": 3
+            "category": 2,
+            "enabled": true
         },
         {
             "id": 20,
@@ -327,7 +347,8 @@
             "imageSrc": "", 
             "youtubeId": "A_E4eCwUEqg",
             "steamId": "1326470",
-            "category": 1
+            "category": 1,
+            "enabled": false
         }  
     ]
 }
