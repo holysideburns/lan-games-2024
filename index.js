@@ -43,6 +43,7 @@ function renderGames() {
                                 <h2 class="game-title">${game.title}</h2>
                                 <p class="game-description">${game.description}</p>
                                 <p class="game-comment">"${game.comment}"</p>
+                                <p class="game-comment-signature">- Jimmy</p>
                             </section>
                             <section class="game-right-section">
                                 <div class="game-video">
@@ -77,6 +78,7 @@ function renderGames() {
                     `;
                 });
             }
+            gamesHTML += `<br>`;
         });
     } else {
         console.log('Data not loaded yet');

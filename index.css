@@ -3,6 +3,7 @@
     --color2: #18191a;
     --color3: #242526;
     --color4: #222222;
+    --color5: #dbb312;
 }
 
 body {
@@ -67,15 +68,15 @@ main {
 }
 
 .game-title {
-    color: var(--color1);
+    color: var(--color5);
     font-size: 2rem;
-    margin: 0 5px 10px;
+    margin: 0 5px 5px;
 }
 
 .game-description {
     color: var(--color1);
     font-size: 1rem;
-    margin: 0 5px 40px;
+    margin: 0 5px 30px;
 }
 
 .game-comment {
@@ -83,9 +84,19 @@ main {
     text-align: center;
     font-style: italic;   
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--color1);
-    margin: 0 0 10px;
+    margin: 0 0 5px;
+}
+
+.game-comment-signature {
+    padding: 0 10px;
+    text-align: right;
+    font-style: italic;   
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color1);
+    margin: 0 10px;
 }
 
 .game-right-section {
