@@ -3,22 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Centered iFrame</title>
+  <title>Centered Power BI Report</title>
   <style>
-    /* Center the div container */
+    /* Center the iframe container */
     .iframe-container {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh; /* Make it full viewport height to center vertically */
+      height: 80vh; /* Adjusted height for better fit with page content */
+      width: 100%;
+      padding: 10px; /* Optional padding for spacing */
+      box-sizing: border-box;
+    }
+    /* Responsive iframe styling */
+    iframe {
+      width: 100%;
+      height: 100%;
+      max-width: 1200px; /* Max width to limit scaling on large screens */
+      border: none;
     }
   </style>
 </head>
-<body>
+<body style="background-color: #3f3a60;">
 
-  <h1 style="text-align: center;">Centered iFrame</h1>
+  <h1 style="text-align: center;">Power BI Report</h1>
   <div class="iframe-container">
-    <iframe title="BGG Statistics" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiOTkwOGRiMjAtNjI1Zi00MjY5LTg1NGMtNjg4OTgxOWRkNzk4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="BGG Statistics" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiOTkwOGRiMjAtNjI1Zi00MjY5LTg1NGMtNjg4OTgxOWRkNzk4IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" 
+            allowfullscreen="true"></iframe>
   </div>
 
 </body>
